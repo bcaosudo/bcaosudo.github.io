@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TPAMI2016|Chunlei Peng@Xidian</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<!--theme-style-->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+<!--//theme-style-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Chunlei,Peng,VIPSL,Xidian,face,sketch,synthesis,heterogeneous,recognition" />
+<meta name="description" content="Chunlei Peng is currently pursuing the Ph.D. degree in the VIPS laboratory, Xidian University, Xi’an, China. His current research interests include computer vision, pattern recognition, and machine learning.">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--fonts-->
+<link href='http://fonts.lug.ustc.edu.cn/css?family=Lato:100,300,400,700,900' rel='stylesheet' type='text/css'>
+<!--//fonts-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+				<script type="text/javascript">
+					jQuery(document).ready(function($) {
+						$(".scroll").click(function(event){		
+							event.preventDefault();
+							$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+						});
+					});
+					</script>
+
+</head>
+<body>
+	<!--header-->
+<!-- 	<div class="container">
+	<div class="header">
+		<div class="header-top">
+			<div class="logo">
+				<a href="index.html"><img src="images/MyLogo.png" style="width: 70%;padding-bottom:3%" alt="Chunlei Peng" ></a>
+			</div>
+			<div class="header-top-on">
+			</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="header-bottom">
+				<div class="top-nav">
+					<span class="menu"><img src="images/menu.png" alt="Menu" >  </span>
+					<ul>
+						<li><a href="index.html"> HOME</a> </li>
+						<li><a href="CV/CV_Chunlei_Peng.pdf" target="_blank"> CV</a></li>
+						<li><a href="Publications.html"  style="color: #333333"> PUBLICATIONS</a></li>
+						<li><a href="Projects.html"> PROJECTS</a></li>
+						<li><a href="Contact.html"> CONTACT </a></li>
+					</ul>					
+				<script>
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle(500, function(){
+						});
+					});
+			</script>
+				</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	</div> -->
+
+			<div class="container">
+			<div class="content">
+				<div class="top-on">
+				<br><br>
+				<h4><font style=" font-weight:normal;line-height:1.6;text-align:justify">
+				<span style="float:right;">[<a href="index.html">Back to Home</a>]</span><br>
+				<center><i>IEEE TPAMI 2016</i></center>
+				</font></h4>
+				
+				<h1><font style=" font-weight:bold;line-height:1.6;text-align:justify">
+				<center>Graphical Representation for Heterogeneous <br>Face Recognition</center>
+				</font></h1>			
+				<br>
+				<h4><font style="font-weight:normal;line-height:1.6;text-align:justify">
+				<center><a href="index.html"  target="_blank"><b>Chunlei Peng</b></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  href="http://see.xidian.edu.cn/faculty/xbgao/" target="_blank">Xinbo Gao</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  href="http://web.xidian.edu.cn/nnwang/index.html" target="_blank">Nannan Wang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a  href="http://web.xidian.edu.cn/leejie/" target="_blank">Jie Li</a></center>
+				</font></h4>
+				<br>
+				<h3><font style=" font-weight:bold;line-height:1.6;text-align:justify">
+				<center>Xidian University</center>
+				</font></h3>
+				<br>
+				<center><a href="TPAMI2016_GHFR.html"><img class="img-responsive " src="Images/TPAMI2016_GHFR_Outline.png" width="100%" alt="TPAMI2016_GHFR"  /></a></center>
+				
+				<br><br>
+				<h2>Abstract</h2><br>
+				<h4 style="line-height:1.6;text-align:justify"><font style=" font-weight:normal">
+				&nbsp;&nbsp;&nbsp;&nbsp;Heterogeneous face recognition (HFR) refers to matching face images acquired from different sources (i.e., different sensors or different wavelengths) for identification. HFR plays an important role in both biometrics research and industry. In spite of promising progresses achieved in recent years, HFR is still a challenging problem due to the difficulty to represent two heterogeneous images in a homogeneous manner. Existing HFR methods either represent an image ignoring the spatial information, or rely on a transformation procedure which complicates the recognition task. Considering these problems, we propose a novel graphical representation based HFR method (G-HFR) in this paper. Markov networks are employed to represent heterogeneous image patches separately, which takes the spatial compatibility between neighboring image patches into consideration. A coupled representation similarity metric (CRSM) is designed to measure the similarity between obtained graphical representations. Extensive experiments conducted on multiple HFR scenarios (viewed sketch, forensic sketch, near infrared image, and thermal infrared image) show that the proposed method outperforms state-of-the-art methods.
+				</font></h4>
+				
+				<br><br>
+				<h2>Contribution Highlights</h2><br>
+				<h4>
+				<ul style="line-height:1.6;text-align:justify;padding-left: 3%"><font style=" font-weight:normal">
+				<li style="padding-bottom:1%">We employ Markov networks to obtain graphical representations for representing heterogeneous face images, which firstly takes spatial information into consideration
+				</li>
+				<li style="padding-bottom:1%">A coupled representation similarity metric is developed for matching, which considers the spatial structure between heterogeneous face image patches
+				</li>
+				<li style="padding-bottom:1%">Leading accuracies are achieved on multiple HFR scenarios which illustrates the effectiveness of the proposed method
+				</li></font>				
+				</ul>
+				</h4>
+	
+				<br><br>
+				<h2>Databases</h2><br>
+				<h4>
+				<center><a href="TPAMI2016_GHFR.html"><img class="img-responsive " src="Images/TPAMI2016_GHFR_Databases.png" width="70%" alt="TPAMI2016_GHFR"  /></a></center>
+				
+				<ul style="line-height:1.6;text-align:justify;padding-left: 3%"><font style=" font-weight:normal">
+				<li style="padding-bottom:1%">(a) the CUHK Face Sketch FERET Database (CUFSF) [<a href="http://mmlab.ie.cuhk.edu.hk/archive/cufsf/"  target="_blank">Link</a>];
+				</li>
+				<li style="padding-bottom:1%">(b) the IIIT-Delhi Semi-forensic Sketch Database [<a href="http://www.iab-rubric.org/resources/sketchDatabase.html"  target="_blank">Link</a>];
+				</li>
+				<li style="padding-bottom:1%">(c) the PRIP Viewed Softward-Generated Composite Dataset (PRIP-VSGC) [<a href="http://biometrics.cse.msu.edu/pubs/databases.html"  target="_blank">Link</a>];
+				</li>	
+				<li style="padding-bottom:1%">(d) our collected forensic sketch database, which originates from a collection of images from the forensic sketch artist Lois Gibson[<a href="#1">1</a>], Karen Taylor[<a href="#2">2</a>], and other Internet sources;
+				</li>
+				<li style="padding-bottom:1%">(e) the CASIA NIR-VIS 2.0 Database [<a href="http://www.cbsr.ia.ac.cn/english/NIR-VIS-2.0-Database.html"  target="_blank">Link</a>];
+				</li>
+				<li style="padding-bottom:1%">(f) the Natural Visible and Infrared facial Expression Database (USTC-NVIE) [<a href="http://nvie.ustc.edu.cn/index.html"  target="_blank">Link</a>];
+				</li></font>				
+				</ul>
+				</h4>
+	
+				<br><br>
+				<h2>Citation</h2><br>
+				<h4>
+				<ul style="line-height:1.6;text-align:justify;padding-left: 3%"><font style=" font-weight:normal">
+				<li style="padding-bottom:1%">
+				C. Peng, X. Gao, N. Wang, and J. Li. <i>Graphical Representation for Heterogeneous Face Recognition</i>. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2016. [<a href="http://dx.doi.org/10.1109/TPAMI.2016.2542816"  target="_blank">PDF</a>]&nbsp;&nbsp;[<a href="http://arxiv.org/abs/1503.00488"  target="_blank">PDF on arXiv</a>]
+				</li>
+				</font>
+				</ul>
+				</h4>
+	
+	
+				<br><br>
+				<h2>References</h2><br>
+				<h4>
+				<ul style="line-height:1.6;text-align:justify"><font style=" font-weight:normal">
+				[<a name="1">1</a>] L. Gibson, <i>Forensic Art Essentials: A Manual for Law Enforcement Artists</i>. Waltham, MA: Academic Press, 2010.<br>
+				[<a name="2">2</a>] K. Taylor, <i>Forensic Art and Illustration</i>. Boca Raton, FL: CRC Press, 2000.
+				</font>
+				</ul>
+				</h4>
+	
+				<br><br>
+				</div>				
+			</div>
+		</div>
+
+		<div class="container">
+		<div class="footer">
+			<div class="footer-top">
+				<div class="col-md-4 amet-sed">
+				<h4>navigation</h4>
+				<i class="line"> </i>
+					<ul class="nav-bottom">
+						<li><a href="index.html" >HOME  </a> </li>
+						<li><a href="CV/CV_Chunlei_Peng.pdf"  target="_blank"> CV</a></li>
+						<li><a href="Publications.html"> PUBLICATIONS </a></li>
+						<li><a href="Projects.html" > PROJECTS</a></li>
+						<li><a href="Contact.html">CONTACT </a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 amet-sed ">
+				<h4>Contact</h4>
+				<i class="line"> </i>
+				<p  style="text-transform:none;padding-top:2.5em">
+				Chunlei Peng<br>
+				Xidian University<br>
+				Xi'an, 710071, China<br>
+				Email: <a href="mailto:clp.xidian@gmail.com">clp.xidian(at)gmail.com</a><br>
+				Phone: (86)15829916976</p>
+				</div>
+				<div class="col-md-4 amet-sed ">
+				<h4>Links</h4>
+				<i class="line"> </i>
+				<p>
+				<a  href="http://see.xidian.edu.cn/faculty/xbgao/" target="_blank">Xinbo Gao</a><br>
+				<a  href="http://web.xidian.edu.cn/nnwang/index.html" target="_blank">Nannan Wang</a><br>
+				<a  href="http://see.xidian.edu.cn/vipsl/index.html" target="_blank">VIPS Lab</a><br>
+				<a  href="http://www.ihitworld.com/" target="_blank">HIT Lab</a><br>
+				</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+				<p class="footer-class" style="text-transform:none"> Hosted on <a  href="https://pages.github.com/" target="_blank">Github Pages</a> and <a  href="https://coding.net/help/doc/pages/index.html" target="_blank">Coding Pages</a>. Inspired template by  <a href="http://w3layouts.com/" target="_blank">W3layouts</a>.</p>
+		<p class="footer-class"  style="text-transform:none">Copyright &copy; 2016 Chunlei Peng - Visited <a href="http://www.easycounter.com/" onclick="stc(this, 44)"><img src="http://www.easycounter.com/counter.php?lanseyong000" border="0" alt="Free Web Counters"></a> times - Last updated: May.4 2016.</p>
+		</div>
+		 <script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+</body>
+</html>
